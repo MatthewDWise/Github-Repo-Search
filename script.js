@@ -32,8 +32,8 @@ console.log(responseJson);
 $("#results-display").empty();
 let responseDisplay = "";
 responseJson.forEach(userRepo => {
-responseDisplay+= `<div class = "anel"><h3>${userRepo.name}</h3></div>
-<a href="${userRepo.html-url}">Repo URL Link</a>`
+responseDisplay+= `<div class = "panel"><h3>${userRepo.name}</h3></div>
+<a href="${userRepo.html_url}">Repo URL Link</a>`
 });
 $("#results-display").html(responseDisplay);
 $(".results-display-container").removeClass("hidden");
