@@ -22,8 +22,8 @@ getUserName(userInput);
 
 function getUserName() {
 fetch(`https://api.github.com/users/${userInput()}/repos`)
-.then(response => response.json());
-.then(responseJson => displayResults(responseJson));
+.then(response => response.json())
+.then(responseJson => displayResults(responseJson))
 .catch(error => alert("Unable to locate user, please try again."));
 }
 
