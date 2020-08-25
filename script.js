@@ -29,7 +29,7 @@ fetch(`https://api.github.com/users/${userInput()}/repos`)
 
 function displayResults(responseJson){
 console.log(responseJson);
-$"#results-display").empty();
+$("#results-display").empty();
 let responseDisplay = "";
 responseJson.forEach(userRepo => {
 responseDisplay+= `<div class = "anel"><h3>${userRepo.name}</h3></div>
