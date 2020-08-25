@@ -2,7 +2,7 @@
 
 function pageLoad(){
 console.log("Ready for submission!");
-watchFormSubmit();
+watchForSubmit();
 }
 
 var userText = "";
