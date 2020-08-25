@@ -1,0 +1,26 @@
+.hidden {
+display: none;
+}
+
+h1{
+padding: 30px;
+}
+
+* {
+background-color: rgb(133,211,133);
+text-align: center;
+}
+
+#user-input-info{
+background-color: white;
+border-radius: 12px;
+height: 30px;
+text-transform: uppercase;
+}
+
+button {
+background-color: white;
+color: darkgreen;
+border-radius: 10px;
+height: 30px;
+}
